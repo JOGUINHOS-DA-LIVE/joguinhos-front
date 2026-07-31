@@ -1,7 +1,7 @@
 import Titulo from './assets/titulo.png';
 import bonequinho from './assets/bonequinho_de_login.png';
 import twitch from './assets/integracao_twitch.png';
-import './App.css'
+import './Home.css'
 
 
 function Home() {

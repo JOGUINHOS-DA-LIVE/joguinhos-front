@@ -1,4 +1,4 @@
-import './App.css'
+import './Home.css'
 import Quadradin from "./Quadradin.tsx";
 
 function Vocabulo() {
