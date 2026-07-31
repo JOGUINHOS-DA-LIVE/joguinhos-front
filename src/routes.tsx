@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./App";
 import Home from "./Home";
+import Vocabulo from "./Vocabulo";
 
 function AppRoutes() {
     return (
@@ -9,6 +10,7 @@ function AppRoutes() {
                 <Routes>
                     <Route path="/" element={<App />} />
                     <Route path="/home" element={<Home />} />
+                    <Route path="/vocabulo" element={<Vocabulo />} />
                 </Routes>
             </BrowserRouter>
         </>
