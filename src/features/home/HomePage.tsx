@@ -1,11 +1,10 @@
-import Titulo from './assets/titulo.png';
-import bonequinho from './assets/bonequinho_de_login.png';
-import twitch from './assets/integracao_twitch.png';
+import Titulo from '../../assets/titulo.png';
+import bonequinho from '../../assets/bonequinho_de_login.png';
+import twitch from '../../assets/integracao_twitch.png';
 import { useNavigate } from 'react-router';
-import './Home.css'
+import './HomePage.css';
 
-
-function Home() {
+function HomePage() {
 
     const navigate = useNavigate();
 
@@ -39,4 +38,4 @@ function Home() {
     )
 }
 
-export default Home
+export default HomePage

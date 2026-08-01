@@ -1,7 +1,5 @@
-import { createRoot } from 'react-dom/client'
-import './index.css' // css G L O B A L
-import AppRoutes from './routes';
+import { createRoot } from 'react-dom/client';
+import './styles/index.css';
+import AppRoutes from './routes/AppRoutes';
 
-createRoot(document.getElementById('root')!).render(
-  < AppRoutes />
-)
+createRoot(document.getElementById('root')!).render(<AppRoutes />);
